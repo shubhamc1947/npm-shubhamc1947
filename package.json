@@ -1,0 +1,34 @@
+{
+  "name": "shubhamc1947",
+  "version": "1.0.0",
+  "description": "Portfolio on npm package ",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamc1947/npm-shubhamc1947.git"
+  },
+  "keywords": [
+    "portfolio",
+    "shubham-portfolio"
+  ],
+  "author": "Shubham Chaturvedi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamc1947/npm-shubhamc1947/issues"
+  },
+  "homepage": "https://github.com/shubhamc1947/npm-shubhamc1947#readme",
+  "dependencies": {
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "colors": "^1.4.0",
+    "figlet": "^1.7.0",
+    "gradient-string": "^2.0.2",
+    "inquirer": "^9.3.1",
+    "nanospinner": "^1.1.0",
+    "terminal-link": "^3.0.0"
+  }
+}
