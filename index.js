@@ -27,7 +27,7 @@ function printSkill(languages, header) {
     console.log(output);
 }
 
-async function main() {
+export async function main() {
     console.log(`
 ( ͡° ͜ʖ ͡°) 
 
@@ -38,8 +38,7 @@ async function main() {
 ██║░░██║██║  ░░░██║░░░██║░░██║███████╗██║░░██║███████╗ ██╗██╗
 ╚═╝░░╚═╝╚═╝  ░░░╚═╝░░░╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝╚══════╝ ╚═╝╚═╝`.magenta);
     
-    console.log();
-    
+    console.log()
     const spinner = createSpinner('Loading Shubham\'s details').start();
     
     async function spinnerStart() {
@@ -74,8 +73,7 @@ async function main() {
     console.log();
     
     printSkill(['Java', 'C', 'Python', 'JavaScript'], 'LANGUAGES   ');
-    printSkill(['React', 'Framer Motion']);
-    printSkill(['Express', 'Node.js', 'WebSocket', 'WebRTC', 'Firebase'], 'TECHNOLOGIES');
+    printSkill(['React', 'Framer Motion','Express', 'Node.js', 'WebSocket', 'WebRTC', 'Firebase'], 'TECHNOLOGIES');
     printSkill(['MongoDb', 'MYSQL', 'SQL'], 'DATABASES   ');
     printSkill(['GIT', 'Github'], 'Tools       ');
 
@@ -86,7 +84,8 @@ async function main() {
 
     console.log();
     
-    console.log('Shubham is open to exciting opportunities! Thanks for checking out my CLI!'.magenta);
+    console.log('I am right now learning WEB RTC and trying to create something awesome Everyday.'.magenta);
+    console.log('I am open to exciting opportunities! Thanks for checking out my CLI!'.magenta);
     console.log();
 }
 
