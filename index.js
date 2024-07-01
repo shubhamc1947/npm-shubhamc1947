@@ -1,3 +1,6 @@
+#!/usr/bin/env node
+
+
 import { createSpinner } from 'nanospinner';
 import colors from 'colors';
 import link from 'terminal-link';
